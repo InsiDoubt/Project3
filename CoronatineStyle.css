@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	
+}
+
+img{
+	max-width: 100%;
+}
+.Name {
+	/*margin-left: 15em;
+	margin-right: 15em; */
+	color: white;
+	font-size: 150%;
+	font-weight: 500;
+	background: rgba(0,0,0,.75);
+	padding: 10px;	
+}
+/*header
+*/
+header {
+	/*position: absolute; */
+	margin-top: 1em;
+	padding: 4em;
+	background-image:url("KayvonLogo.gif");
+	background-size: cover;
+		}
+
+div#box
+{
+    width: 100px;
+	height: 100px;
+    background-color: #00FF00;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+button#emcee
+{
+	margin-top: 100px;
+    position: absolute;
+    z-index: 2;   
+}
