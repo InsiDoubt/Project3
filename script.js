@@ -38,7 +38,7 @@ $(document).ready(function() {
     caller.on('mouseenter', foo);
     caller.on('click', function(){
         // alert('clicked!');
-        location.href = "LINKYBOI";
+        location.href = "https://insidoubt.github.io/Project3/CoronatinePG2.html";
     });
     
 });
